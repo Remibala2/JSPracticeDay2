@@ -55,13 +55,31 @@ function leapYear()
 function daysForChristmas()
 {
     var today = new Date();
-    console.log(today);
+    // Get the year of the current date
+    let christmasYear = today.getFullYear();
 if(today.getMonth() == 11 && today.getDay >= 25 )
 {
-    document.getElementById("daysForChristmas").innerHTML = "Its Christmas Season";
+    document.getElementById("daysForChristmas").innerHTML = "Its Christmas Season already";
 }
 else 
 {
+        // Get the date of the next Christmas
+        let christmasDate = 
+        new Date(christmasYear, 11, 25);  
+    // Get the number of milliseconds in 1 day
+    let dayMilliseconds =
+        1000 * 60 * 60 * 24;
+  
+    // Get the remaining amount of days
+    let remainingDays = Math.ceil(
+      (christmasDate.getTime() - today.getTime()) /
+      (dayMilliseconds)
+    );
+  
+    // Write it to the page
+    document.getElementById("daysForChristmas").innerHTML = "There are " + remainingDays +
+                   " days remaining until Christmas.";
+
 
 }
 }
