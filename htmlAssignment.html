@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-image: url("https://images.unsplash.com/photo-1516542076529-1ea3854896f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
+
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        margin: 70px;
+        padding: 50px;
+        color: black;
+        height: 200px;
+        width: 40%;
+        align-items: center;
+      }
+
+      table td,
+      table input,
+      table button {
+        font-size: large;
+        height: 40px;
+        width: fit-content;
+        margin: 8px;
+        padding: 8px;
+      }
+
+      @media screen and (max-width: 980px) {
+        table tr,
+        table td,
+        table button,
+        table input {
+          background-color:darkgreen;
+          font-size: small;
+          height: 30px;
+          justify-content: center;
+          margin: 4px;
+          padding: 4px;
+        }
+        h1 {
+          font-size: medium;
+          width: max-content;
+        }
+
+      @media screen and (max-width: 560px) {
+        table tr,
+        table td,
+        table button,
+        table input {
+          background-color: aqua;
+          font-size: small;
+          height: 30px;
+          justify-content: center;
+          margin: 4px;
+          padding: 4px;
+        }
+        h1 {
+          font-size: medium;
+          width: max-content;
+        }
+
+        @media screen and (max-width: 200px) {
+        table tr,
+        table td,
+        table button,
+        table input {
+          background-color:blueviolet;
+          font-size: small;
+          height: 30px;
+          justify-content: center;
+          margin: 4px;
+          padding: 4px;
+        }
+        h1 {
+          font-size: medium;
+          width: max-content;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <table>
+        <tr>
+          <thead>
+            <h1>Login Form using Table</h1>
+          </thead>
+        </tr>
+        <tr>
+          <td>UserName : *</td>
+          <td>
+            <input
+              type="text"
+              placeholder="Enter UserName"
+              required
+              autofocus
+              maxlength="50"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Password : *</td>
+          <td>
+            <input type="password" placeholder="Enter Password" required />
+          </td>
+        </tr>
+        <tr>
+          <td><button type="button" value="Submit">Submit</button></td>
+          <td><button type="reset" value="clear">Clear</button></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
