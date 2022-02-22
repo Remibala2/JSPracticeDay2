@@ -15,3 +15,7 @@ JS PracticeDay2
 
 
 >>>>>5	Write a JavaScript program to calculate multiplication and division of two numbers (input from user). 
+
+
+HTML Assignment
+>Create a Login page using table
