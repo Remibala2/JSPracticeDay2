@@ -20,4 +20,4 @@ JS PracticeDay2
 HTML Assignment
 >Create a Login page using table
 
->Create a Home page for a Portfolio/Blog based website
+>Create a Contact us Page with a Functionality of Form  
