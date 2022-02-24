@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <script src="Day2Assignment.js"></script>
+  </head>
+  <body>
+    <!-- JS Assignment 1  
+    Write a JavaScript program to display the current day and time in the following format.  
+    
+    Sample Output : Today is : Tuesday. 
+    Current time is : 10 PM : 30 : 38 
+ -->
+    <div style="background-color: beige; padding: 10px">
+      <section>
+        <h1><u>Assignment 1 - Day & Time</u></h1>
+        Today is :
+        <span id="day"></span>
+      </section>
+
+      <section>
+        Current Time is :
+        <span id="time"></span>
+      </section>
+      <br />
+      <button onclick="dayTime()">Show Day and Time</button>
+    </div>
+
+    <!--  document.getElementById("leapYear").innerHTML = "Not a leap Year";
+            console.log("No"); -->
+    <div style="background-color: cadetblue; padding: 10px">
+      <section>
+        <h1><u>Assignment 2 - Area of Triangle</u></h1>
+        <p>Area of Triangle of sides (5,6,7):</p>
+        <p id="areaTriangle"></p>
+        <button onclick="area(5,6,7)">Find Area of triangle</button>
+      </section>
+    </div>
+
+    <!--  document.getElementById("leapYear").innerHTML = "Not a leap Year";
+            console.log("No"); -->
+
+    <div style="background-color: darkgray; padding: 10px">
+      <section>
+        <h1><u>Assignment 3 - Leap Year</u></h1>
+        <p>Find if a given Leap Year or not :</p>
+
+        <input
+          type="number"
+          placeholder="Enter a valid Year"
+          id="inputYear"
+          name="year"
+          value="Check Leap Year"
+        />
+        <button onclick="leapYear()">Leap Year?</button>
+        <p id="leapYear"></p>
+      </section>
+    </div>
+
+    <div style="background-color: lightcyan; padding: 10px">
+      <section>
+        <h1><u>Assignment 4 - How many days for Christmas</u></h1>
+        <button onclick="daysForChristmas()">Show</button>
+        <p id="daysForChristmas"></p>
+      </section>
+    </div>
+
+    <div style="background-color: mistyrose; padding: 10px">
+      <section>
+        <h1><u>Assignment 5 - Calculate</u></h1>
+        <label>1st number</label>
+        <input
+          type="number"
+          placeholder="Enter 1st number : "
+          id="first"
+          name="first"
+          value="calculate"
+        />
+        <br />
+        <label>2nd number</label>
+        <input
+          type="number"
+          placeholder="Enter 2nd number : "
+          id="second"
+          name="second"
+          value="calculate"
+        /><br />
+        <button onclick="multiply()">Multiply</button>
+        <button onclick="divide()">Divide</button>
+        <p>The Result is :</p>
+        <p id="answer"></p>
+      </section>
+    </div>
+  </body>
+</html>
