@@ -26,7 +26,6 @@ HTML Assignment
 
 C# Assignment
 
-ParallellOptions Class in C# 
 1. WAP to Implement MaxDegreeOfParallelism 
 	Step 1: Create an Object of ParallelOption Class 
 	Step 2 : Set MaxDegreeOfParallelism = 2 
