@@ -30,6 +30,10 @@ JS Assignment
 
 	FileName - Day2JSAssignment.js
 	           Day2JSAssignment.html
+		   
+6. Write a JS to find user location in terms of latitude and longitude ?  
+	
+	FileName - geolocation.html
 
 
 HTML Assignment
