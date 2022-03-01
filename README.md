@@ -61,8 +61,6 @@ C# Assignment
 	Display all Classes inside Namespace followed by Methods, types and Arguments.
 	
 	FileName - Read_ContentOfDll_UsingPathName_Assignment.sln
-	
-        ![image](https://user-images.githubusercontent.com/87956276/156090283-d1827fb6-064e-4212-bd71-3e5aefeb6bcf.png)
 
 3.  WAP to implement DLL Import Attribute – Unmanaged dll(user32.dll) to populate a message box  
 
