@@ -29,3 +29,7 @@ C# Assignment
 1. WAP to Implement MaxDegreeOfParallelism 
 	Step 1: Create an Object of ParallelOption Class 
 	Step 2 : Set MaxDegreeOfParallelism = 2 
+2. WAP to Read Content of a Dll/Exe using pathname  
+	Display all Classes inside Namespace followed by Methods, types and Arguments.
+![image](https://user-images.githubusercontent.com/87956276/156090283-d1827fb6-064e-4212-bd71-3e5aefeb6bcf.png)
+ 
