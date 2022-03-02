@@ -44,8 +44,14 @@ HTML Assignment
 
 2. Create a Contact us Page with a Functionality of Form  
 
-	FileNae - htmlAssignment_ContactUs.html
+	FileName - htmlAssignment_ContactUs.html
 	htmlAssignment_ContactUs.css
+	
+CSS Assignment
+
+1.Create a Working Clock using canvas
+	
+	FileName - Clock.html
 
 C# Assignment
 
